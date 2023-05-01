@@ -15,5 +15,15 @@ dependencies:
   - cartopy.crs
   - cartopy.feature
   - matplotlib.pyplot
+  - matplotlib.colors
   - pandas
   - metpy.calc
+  - metpy.plots
+  - metpy.plots.wx_symbols
+  - metpy.units
+  - metpy.io
+  - boto3
+  - botocore
+  - botocore.config
+  - os
+  - 
