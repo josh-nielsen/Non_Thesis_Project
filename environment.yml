@@ -1,0 +1,19 @@
+# Basic environment for package
+name: nielsen_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - warnings
+  - glob
+  - datetime
+  - requests
+  - gzip
+  - shutil
+  - netCDF4
+  - cartopy.crs
+  - cartopy.feature
+  - matplotlib.pyplot
+  - pandas
+  - metpy.calc
