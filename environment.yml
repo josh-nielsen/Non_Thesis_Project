@@ -14,16 +14,26 @@ dependencies:
   - netCDF4
   - cartopy.crs
   - cartopy.feature
+  - cartopy.io.shapereader
   - matplotlib.pyplot
   - matplotlib.colors
+  - matplotlib.cm
   - pandas
   - metpy.calc
   - metpy.plots
   - metpy.plots.wx_symbols
   - metpy.units
   - metpy.io
+  - metpy.plots.declarative
   - boto3
   - botocore
   - botocore.config
   - os
-  - 
+  - xarray
+  - xarray.backends
+  - math
+  - siphon.catalog
+  - multiprocessing
+  - requests
+  - sys
+  - scipy.ndimage
