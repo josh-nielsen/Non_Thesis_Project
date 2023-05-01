@@ -1,5 +1,5 @@
 # Basic environment for package
-name: nielsen_env
+name: wx_plots
 channels:
   - conda-forge
 dependencies:
