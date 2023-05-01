@@ -34,7 +34,32 @@ Operational meteorologists can use notebooks in this package to obtain charts, s
 
 Example of how changing the code changes the output
 ===================================================
+One example of how changing part of the script changes the output is in the `surface analysis <https://github.com/josh-nielsen/Non_Thesis_Project/blob/main/scripts_for_testing/surface_analysis_declarative.ipynb>`_ code. Changing the search radius will impact how the contours are plotted. 
 
+.. figure:: Images/analyze.jpg
+  :width: 900px
+  :align: right
+  :height: 500px
+  :alt: alternate text
+  :figclass: align-center
+
+Changing the value for the variable search_radius will affect the surface pressure contours. For example, a value of 100,000m will result in the plot below:
+
+.. figure:: Images/search_rad1.jpg
+  :width: 500px
+  :align: right
+  :height: 600px
+  :alt: alternate text
+  :figclass: align-center
+  
+If the search radius is changed to 500,000m, the following plot will be the result:
+
+.. figure:: Images/search_rad5.jpg
+  :width: 500px
+  :align: right
+  :height: 600px
+  :alt: alternate text
+  :figclass: align-center
 
 Creating environment from the environment.yml file
 ===================================
