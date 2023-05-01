@@ -32,8 +32,8 @@ Operational Meteorologists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Operational meteorologists can use notebooks in this package to obtain charts, such as satellite, upper air, and surface observations for reviews of weather events. 
 
-Examples
-========
+Example of how changing the code changes the output
+===================================================
 
 
 Creating environment from the environment.yml file
