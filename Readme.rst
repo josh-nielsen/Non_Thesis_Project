@@ -32,6 +32,20 @@ Operational Meteorologists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Operational meteorologists can use notebooks in this package to obtain charts, such as satellite, upper air, and surface observations for reviews of weather events. 
 
+Examples
+========
+
+
+Creating environment from the environment.yml file
+===================================
+Using Anaconda or Miniconda, it is recommended to create a new envrionment from the `environment.yml <https://github.com/josh-nielsen/Non_Thesis_Project/blob/main/environment.yml>`_ file. To create this environment:
+::
+  conda env create -f environment.yml
+
+To activate the new environment:
+::
+  conda activate wx_plots
+
 References
 ==========
 Barba, L. A., Zingale, M., Willing, C., Wickes, E., West, R. H., Watkins, R. R., Niemeyer, K. E., Lippert, D., Moore, J. K., Mandli, K. T., Heagy, L. J., George, T., Downey, A. B., Brown, J., Blank, D. S., & Barker, L. J. (2019, December 6). Teaching and learning with Jupyter - GitHub Pages. Teaching and Learning with Jupyter. Retrieved April 26, 2023, from https://jupyter4edu.github.io/jupyter-edu-book/index.html 
